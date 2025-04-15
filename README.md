@@ -11,11 +11,20 @@ Cloud-native security engineer focused on building hardened infrastructure, scal
 ![Last Commit](https://img.shields.io/github/last-commit/rivassec/secure-iam-lint)
 
 **🔒 Security-Focused Contributions**
-- 🛠️ Built and maintain [`secure-iam-lint`](https://github.com/rivassec/secure-iam-lint), a CI-ready IAM policy linter
-- 🔎 Created [`cf-token-links`](https://github.com/rivassec/cf-token-links), a Flask service for expiring access links
-- 🔐 Developed [`eks-rbac-audit`](https://github.com/rivassec/eks-rbac-audit) to detect RBAC privilege escalation risks in Kubernetes
-- 🧪 Released [`tw-disinfo-defense`](https://github.com/rivassec/tw-disinfo-defense), a toolkit for analyzing Twitter-based disinformation
+- 🛠️ Built and maintain [`secure-iam-lint`](https://github.com/rivassec/secure-iam-lint), a CI-ready IAM policy linter  
+- 🔎 Created [`cf-token-links`](https://github.com/rivassec/cf-token-links), a Flask service for expiring access links  
+- 🔐 Developed [`eks-rbac-audit`](https://github.com/rivassec/eks-rbac-audit) to detect RBAC privilege escalation risks in Kubernetes  
+- 🧪 Released [`tw-disinfo-defense`](https://github.com/rivassec/tw-disinfo-defense), a toolkit for analyzing Twitter-based disinformation  
 - 🧠 Research on EFI input automation featured on [Hackaday in 2013](https://hackaday.com/2013/02/26/mac-efi-pin-lock-brute-force-attack-unsuccessful/)
+
+---
+
+### 💼 Professional Contributions
+
+Most of my work-related commits are under [@oliveratprimer](https://github.com/oliveratprimer), focused on internal infrastructure and DevSecOps at Primer, including:
+- FedRAMP-aligned security pipelines
+- Kubernetes hardening and Zero Trust deployments
+- CI/CD automation for compliance and audit readiness
 
 ---
 
