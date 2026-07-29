@@ -1,0 +1,44 @@
+name: Refresh latest blog posts
+
+on:
+  schedule:
+    - cron: "17 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update posts block from Atom feed
+        run: |
+          python3 - <<'PY'
+          import re, urllib.request, xml.etree.ElementTree as ET
+          ns = {"a": "http://www.w3.org/2005/Atom"}
+          feed = urllib.request.urlopen("https://rivassec.com/feeds/all.atom.xml", timeout=30).read()
+          entries = ET.fromstring(feed).findall("a:entry", ns)[:3]
+          lines = []
+          for e in entries:
+              title = e.find("a:title", ns).text.strip()
+              link = e.find("a:link", ns).get("href")
+              lines.append(f"- [{title}]({link})")
+          block = "\n".join(lines)
+          readme = open("README.md").read()
+          new = re.sub(
+              r"(<!-- BLOG-POST-LIST:START -->).*?(<!-- BLOG-POST-LIST:END -->)",
+              lambda m: f"{m.group(1)}\n{block}\n{m.group(2)}",
+              readme, flags=re.S)
+          if new != readme:
+              open("README.md", "w").write(new)
+          PY
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "rivassec"
+            git config user.email "rivassec@users.noreply.github.com"
+            git commit -am "readme: refresh latest blog posts"
+            git push
+          fi
