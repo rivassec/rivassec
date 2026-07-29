@@ -18,7 +18,10 @@ jobs:
           python3 - <<'PY'
           import re, urllib.request, xml.etree.ElementTree as ET
           ns = {"a": "http://www.w3.org/2005/Atom"}
-          feed = urllib.request.urlopen("https://rivassec.com/feeds/all.atom.xml", timeout=30).read()
+          req = urllib.request.Request(
+              "https://rivassec.com/feeds/all.atom.xml",
+              headers={"User-Agent": "rivassec-readme-bot/1.0"})
+          feed = urllib.request.urlopen(req, timeout=30).read()
           entries = ET.fromstring(feed).findall("a:entry", ns)[:3]
           lines = []
           for e in entries:
