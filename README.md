@@ -47,7 +47,7 @@ Work under [@oliveratprimer](https://github.com/oliveratprimer) includes:
 * **Infrastructure:** AWS, EKS, Terraform, Pulumi, CloudFormation
 * **Security:** IAM, RBAC, CIS Benchmarks, FIPS, Zero Trust
 * **Tooling:** Trivy, Checkov, Vault, CrowdStrike, GitHub Actions
-* **Languages:** Python, Bash, YAML (daily use), Go (familiar)
+* **Languages:** Python, Bash, YAML (daily use)
 
 ---
 
