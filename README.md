@@ -1,77 +1,35 @@
-# DevSecOps | Infrastructure Security | Automation
+# Cloud Security Engineer — AWS · Kubernetes · Compliance Automation
 
-Cloud-native security engineer focused on designing hardened infrastructure, building scalable security pipelines, and implementing pragmatic compliance automation to support secure and efficient cloud operations.
+I harden AWS and EKS in production and map compliance requirements (SOC 2, ISO 27001, CMMC) into policy-as-code enforced in CI/CD. Day to day, in regulated cloud environments: IAM least-privilege, Kubernetes RBAC hardening, detection/triage/response on CrowdStrike Falcon and GuardDuty, and Terraform/Pulumi security controls.
 
----
-
-### 📄 Writing & Blog
-
-Insights on Kubernetes security, IAM hardening, incident retrospectives, and security automation:
-🔗 [**rivassec.com**](https://rivassec.com)
-
-📝 Recent post: [Secure Snapshot Verification in Elasticsearch](https://rivassec.com/elasticsearch-secure-snapshot-verification.html)
+Professional work is under **[@oliveratprimer](https://github.com/oliveratprimer)** — AWS/EKS security automation, CrowdStrike Falcon operations, GuardDuty detection workflows, and SOC 2 / ISO 27001 / CMMC audit readiness. This account is my public portfolio and writing.
 
 ---
 
-### 📊 GitHub Stats
+### Selected projects
 
-![Top Language](https://img.shields.io/github/languages/top/rivassec/secure-iam-lint?color=blue&label=Top%20Language)
-![Stars](https://img.shields.io/github/stars/rivassec/secure-iam-lint?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/rivassec/secure-iam-lint)
-
----
-
-### 🔐 Security-Focused Contributions
-
-* [`secure-iam-lint`](https://github.com/rivassec/secure-iam-lint) — CI-ready IAM policy linter to detect insecure patterns early in development
-* [`cf-token-links`](https://github.com/rivassec/cf-token-links) — Flask-based microservice for generating expiring access links
-* [`eks-rbac-audit`](https://github.com/rivassec/eks-rbac-audit) — RBAC role analyzer for Kubernetes focused on privilege escalation detection
-* [`elasticsearch-tools`](https://github.com/rivassec/elasticsearch-tools) — Hardened snapshot verification scripts with Prometheus observability
-* [`tw-disinfo-defense`](https://github.com/rivassec/tw-disinfo-defense) — Toolkit for investigating Twitter disinformation using OAuth automation
-* [`efi-bruteforce`](https://github.com/rivassec/efi-bruteforce) — Early research into USB-based EFI input automation (featured on Hackaday)
+- **[secure-iam-lint](https://github.com/rivassec/secure-iam-lint)** — CI-ready linter for AWS IAM policies; flags privilege-escalation paths and wildcard grants before they merge.
+- **[iam-safe-defaults](https://github.com/rivassec/iam-safe-defaults)** — Pulumi component library for AWS IAM roles and policies with safe defaults that fail loud.
+- **[elasticsearch-tools](https://github.com/rivassec/elasticsearch-tools)** — Minimal-privilege Elasticsearch snapshot verification with Prometheus-style metrics.
+- **[cf-token-links](https://github.com/rivassec/cf-token-links)** — Flask service for expiring, usage-limited access links.
+- **[weaponization-threat-model](https://github.com/rivassec/weaponization-threat-model)** — Threat-modeling addendum (STRIDE/LINDDUN/PASTA) for the case where the system's legitimate operator becomes the adversary.
+- **[efi-bruteforce](https://github.com/rivassec/efi-bruteforce)** — Teensy-based USB HID EFI brute-force research (featured on Hackaday).
 
 ---
 
-### 💼 Professional Contributions
+### Writing — [rivassec.com](https://rivassec.com)
 
-Work under [@oliveratprimer](https://github.com/oliveratprimer) includes:
+Field notes on IAM, Kubernetes, detection/IR, and security automation. A few:
 
-* Designing FedRAMP-aligned security automation pipelines
-* Deploying Zero Trust and hardened Kubernetes environments
-* Building CI/CD workflows that support compliance and audit readiness
-
----
-
-### 🛠️ Toolbox
-
-* **Infrastructure:** AWS, EKS, Terraform, Pulumi, CloudFormation
-* **Security:** IAM, RBAC, CIS Benchmarks, FIPS, Zero Trust
-* **Tooling:** Trivy, Checkov, Vault, CrowdStrike, GitHub Actions
-* **Languages:** Python, Bash, YAML (daily use)
+- [IAM Blast Radius Is an Architecture Problem, Not a Policy Problem](https://rivassec.com/iam-blast-radius-architecture-problem.html)
+- [Hardening Kubernetes Deployments](https://rivassec.com/hardening-k8s.html)
+- [Every Alert Is Your Alert: When IR Tooling Trips Your Own EDR](https://rivassec.com/every-alert-is-your-alert.html)
 
 ---
 
-### 📊 Areas of Focus
+### Toolbox
 
-* Scaling Kubernetes and AWS hardening efforts
-* Policy-as-code pipelines for audit-driven security automation
-* Tooling that bridges security assurance and developer velocity
-* Embedding compliance into infrastructure and CI/CD workflows
-* Reproducibility and observability in DevSecOps systems
-
----
-
-### 📈 Featured Projects
-
-* [`secure-iam-lint`](https://github.com/rivassec/secure-iam-lint) — Linter for AWS IAM policies, designed to prevent privilege escalation and misconfigurations in CI pipelines.
-* [`eks-rbac-audit`](https://github.com/rivassec/eks-rbac-audit) *(in progress)* — Kubernetes RBAC analyzer to surface overly permissive roles and privilege escalation vectors.
-* [`cf-token-links`](https://github.com/rivassec/cf-token-links) — Secure access link service with expiration controls, built for shareable profiles and recruiter access.
-* [`elasticsearch-tools`](https://github.com/rivassec/elasticsearch-tools) — Minimal-permission scripts for verifying Elasticsearch snapshots and exposing Prometheus-style metrics.
-* [`tw-disinfo-defense`](https://github.com/rivassec/tw-disinfo-defense) — OAuth-driven automation toolkit for analyzing disinformation patterns on Twitter.
-* [`efi-bruteforce`](https://github.com/rivassec/efi-bruteforce) — Archival project demonstrating low-level input automation on EFI screens, featured in 2013 by Hackaday.
-
----
-
-> Security is not a feature. It is infrastructure.
-
-All contributions are built for clarity, reproducibility, and operational reliability.
+- **Cloud / Infra:** AWS, EKS, Terraform, Pulumi, CloudFormation
+- **Security:** IAM, RBAC, CrowdStrike Falcon, GuardDuty, CIS Benchmarks
+- **Compliance:** SOC 2, ISO 27001, CMMC, policy-as-code pipelines
+- **Languages:** Python, Bash, YAML
