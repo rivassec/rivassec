@@ -24,9 +24,9 @@ Professional work is under **[@oliveratprimer](https://github.com/oliveratprimer
 Field notes on IAM, Kubernetes, detection/IR, and security automation. Latest:
 
 <!-- BLOG-POST-LIST:START -->
+- [When the Output Carries the Signal: Claude, SynthID-Text, and the New Detection Attack Surface](https://rivassec.com/claude-synthid-text-watermark-attack-surface.html)
 - [IAM Blast Radius Is an Architecture Problem, Not a Policy Problem](https://rivassec.com/iam-blast-radius-architecture-problem.html)
 - [The Discovery Layer Is Broken: Hiring as an Observability Problem](https://rivassec.com/hiring-discovery-layer-broken.html)
-- [Prompt Injection Will Become a Supply Chain Evasion Technique](https://rivassec.com/prompt-injection-supply-chain-evasion.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
