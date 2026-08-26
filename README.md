@@ -5,9 +5,9 @@ analyzer with a live tool, a Pulumi IAM library with safe defaults, and
 a threat-model addendum for the case where the operator is the adversary.
 
 Current role (private org work under [@oliveratprimer](https://github.com/oliveratprimer),
-low public signal): AWS and EKS hardening in production, detection and
-response on CrowdStrike Falcon and GuardDuty, and SOC 2 / ISO 27001 /
-CMMC requirements mapped into policy-as-code in CI/CD.
+low public signal): AWS and EKS hardening in production, EDR and cloud
+threat detection operations, and compliance requirements mapped into
+policy-as-code in CI/CD.
 
 ---
 
