@@ -8,7 +8,7 @@ Professional work is under **[@oliveratprimer](https://github.com/oliveratprimer
 
 ### 🛠 Projects
 
-* [`secure-iam-lint`](https://github.com/rivassec/secure-iam-lint) — CI-ready linter for AWS IAM policies; flags privilege-escalation paths and wildcard grants before they merge.
+* [`secure-iam-lint`](https://github.com/rivassec/secure-iam-lint) — Client-side AWS IAM policy blast-radius analyzer (fail-closed, zero-backend); powers the live tool at [rivassec.com/tools/iam-blast-radius](https://rivassec.com/tools/iam-blast-radius/). 📝 [Testing an IAM Analyzer Against Its Own Claims](https://rivassec.com/testing-an-iam-analyzer-against-its-own-claims.html)
 * [`iam-safe-defaults`](https://github.com/rivassec/iam-safe-defaults) — Pulumi component library for AWS IAM with safe defaults that fail loud: mandatory permissions boundary, no wildcard trust, every opt-out explicit. 📝 Design rationale: [IAM Roles That Fail Loud](https://rivassec.com/iam-safe-defaults-fail-loud.html)
 * [`eks-rbac-audit`](https://github.com/rivassec/eks-rbac-audit) — Kubernetes RBAC escalation auditor for EKS *(in design)* — the K8s counterpart to `secure-iam-lint`.
 * [`devsecops-notes`](https://github.com/rivassec/devsecops-notes) — Source for [rivassec.com](https://rivassec.com): Pelican, with link-check, accessibility (pa11y), and gitleaks CI.
