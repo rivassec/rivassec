@@ -24,9 +24,9 @@ Professional work is under **[@oliveratprimer](https://github.com/oliveratprimer
 Field notes on IAM, Kubernetes, detection/IR, and security automation. Latest:
 
 <!-- BLOG-POST-LIST:START -->
+- [When Telemetry Turns Predatory: A DevSecOps Look at Digital Repression in Venezuela](https://rivassec.com/telemetry-turns-predatory.html)
 - [Testing an IAM Analyzer Against Its Own Claims](https://rivassec.com/testing-an-iam-analyzer-against-its-own-claims.html)
 - [The DevSecOps Guide: Hardening, IAM, and Incident Response](https://rivassec.com/devsecops-guide.html)
-- [When the Output Carries the Signal: Claude, SynthID-Text, and the New Detection Attack Surface](https://rivassec.com/claude-synthid-text-watermark-attack-surface.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
