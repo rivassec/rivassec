@@ -26,9 +26,9 @@ policy-as-code in CI/CD.
 Start here: [Testing an IAM Analyzer Against Its Own Claims](https://rivassec.com/testing-an-iam-analyzer-against-its-own-claims.html). Latest:
 
 <!-- BLOG-POST-LIST:START -->
+- [Finding the Cryptominer Hiding in a Docker overlay2 Layer](https://rivassec.com/cryptominer-in-the-docker-layer.html)
 - [When Telemetry Turns Predatory: A DevSecOps Look at Digital Repression in Venezuela](https://rivassec.com/telemetry-turns-predatory.html)
 - [Testing an IAM Analyzer Against Its Own Claims](https://rivassec.com/testing-an-iam-analyzer-against-its-own-claims.html)
-- [The DevSecOps Guide: Hardening, IAM, and Incident Response](https://rivassec.com/devsecops-guide.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
