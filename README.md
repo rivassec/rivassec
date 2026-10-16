@@ -24,9 +24,9 @@ profile shows the side of it I can build in public.
 Start here: [Testing an IAM Analyzer Against Its Own Claims](https://rivassec.com/testing-an-iam-analyzer-against-its-own-claims.html). Latest:
 
 <!-- BLOG-POST-LIST:START -->
+- [The Laptop Is the Point of No Return: DPRK IT Worker Fraud](https://rivassec.com/detecting-dprk-it-worker-hiring-fraud.html)
 - [IAM Blast Radius in CI: Designing a Gate That Fails Closed](https://rivassec.com/iam-blast-radius-github-action.html)
 - [Every Alert Is Your Alert: When IR Tooling Trips Your Own EDR](https://rivassec.com/every-alert-is-your-alert.html)
-- [Finding the Cryptominer Hiding in a Docker overlay2 Layer](https://rivassec.com/cryptominer-in-the-docker-layer.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
